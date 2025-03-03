@@ -1,0 +1,3 @@
+User-agent: ia_archiver
+
+Sitemap: https://gokulkannan-s.netlify.app/sitemap.xml
