@@ -13,7 +13,7 @@ const ovo = Ovo({
 
 export const metadata = {
   title: "Gokul Kannan Selvaraj | Portfolio",
-  description: "",
+  description: "I'm gokul kannan software developer in london, United Kingdom",
 };
 
 export default function RootLayout({ children }) {
