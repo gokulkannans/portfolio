@@ -103,7 +103,13 @@ export const workData = [
         title: 'portfolio site',
         description: 'Made with Next.js',
         bgImage: '/work-3.png',
-        url: 'https://gokulkannan-s.netlify.app/'
+        url: 'https://gokulkannan-s.com/'
+    },
+    {
+        title: 'Ecommerce',
+        description: 'Made with MERN',
+        bgImage: '/work-4.png',
+        url: 'https://giwmonti.com/'
     }
 ]
 
