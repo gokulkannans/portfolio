@@ -109,7 +109,7 @@ export const workData = [
         title: 'Ecommerce',
         description: 'Made with MERN',
         bgImage: '/work-4.png',
-        url: 'https://giwmonti.com/'
+        url: 'https://www.jbentocouture.com/'
     }
 ]
 
@@ -129,4 +129,5 @@ export const infoList = [
 
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.aws, assets.linux
+
 ];
