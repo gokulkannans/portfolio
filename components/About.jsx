@@ -8,38 +8,38 @@ const About = ({isDarkMode}) => {
     <motion.div id='about' className='w-full px-[12%] py-10 scroll-mt-20'
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
-    transition={{duration: 1}}
+    transition={{duration: 0.6}}
     >
       <motion.h4 
       initial={{opacity: 0, y: -20}}
       whileInView={{opacity: 1, y: 0}}
-      transition={{duration: 0.5, delay: 0.3}}
+      transition={{duration: 0.4, delay: 0.2}}
       className='text-center mb-2 text-lg font-Ovo'>
         Introduction</motion.h4>
 
       <motion.h2 
       initial={{opacity: 0, y: -20}}
       whileInView={{opacity: 1, y: 0}}
-      transition={{duration: 0.5, delay: 0.5}}
+      transition={{duration: 0.4, delay: 0.3}}
       className='text-center text-5xl font-Ovo'>
         About me</motion.h2>
 
         <motion.div 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
-        transition={{duration: 0.8}}
+        transition={{duration: 0.6}}
         className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
             <motion.div
             initial={{opacity: 0, scale: 0.9}}
             whileInView={{opacity: 1, scale: 1}}
-            transition={{duration: 0.6}}
+            transition={{duration: 0.5}}
             className='w-64 sm:w-80 rounded-3xl max-w-none'>
                 <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
             </motion.div>
             <motion.div 
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
-            transition={{duration: 0.6, delay: 0.8}}
+            transition={{duration: 0.5, delay: 0.6}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'
                 >I am an experienced Full-Stack Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
@@ -47,7 +47,7 @@ const About = ({isDarkMode}) => {
                 <motion.ul
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
-                transition={{duration: 0.8, delay: 1}}
+                transition={{duration: 0.6, delay: 0.8}}
                 className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                     {infoList.map(({icon, iconDark, title, description}, index)=>(
                         <motion.li 
@@ -64,13 +64,13 @@ const About = ({isDarkMode}) => {
                 <motion.h4
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
-                transition={{ delay: 1.3, duration: 0.5 }}
+                transition={{ delay: 1, duration: 0.4 }}
                 className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
 
                 <motion.ul
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ delay: 1.5, duration: 0.6 }}
+                transition={{ delay: 1.2, duration: 0.5 }}
                 className='flex items-center gap-3 sm:gap-5'>
                     {toolsData.map((tool, index)=>(
                         <motion.li 

@@ -110,6 +110,12 @@ export const workData = [
         description: 'Made with MERN',
         bgImage: '/work-4.png',
         url: 'https://www.jbentocouture.com/'
+    },
+    {
+        title: 'AI AskMyDoc',
+        description: 'Made with Python',
+        bgImage: '/work-5.png',
+        url: 'https://github.com/gokulkannans/askmydoc'
     }
 ]
 
