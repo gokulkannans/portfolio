@@ -10,9 +10,9 @@ const Footer = ({isDarkMode}) => {
 
         <div className='w-max flex items-center gap-2 mx-auto'>
             <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='' className='w-6'/>
-            gokul.official0205@gmail.com
+            gks.official0205@gmail.com
             <Image src={isDarkMode ? assets.phone_call_black : assets.phone_call} alt='' className='w-6'/>
-            +44 7388458463
+            +91 9841360263
         </div>
       </div>
 
